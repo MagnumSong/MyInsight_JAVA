@@ -152,7 +152,7 @@ public class Main {
         System.out.print(n+"=");
         for(int i=2;i<n+1;i++){
             while(n%i==0 && n!=i){
-                n/=i;
+                n/=i; 
                 System.out.print(i+"*");
             }
             if(n==i){
