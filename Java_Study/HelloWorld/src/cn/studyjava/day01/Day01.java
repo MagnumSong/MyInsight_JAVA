@@ -4,9 +4,11 @@ package cn.studyjava.day01;
 public class Day01 {
     public void day01_main(String[] args) {
         // 第一天的主方法入口
+        System.out.println("Hello World!你好啊，世界！");
 
-        printCode();
+        demo_1();
 
+        System.out.println();
     }
 
     /*
@@ -26,31 +28,31 @@ public class Day01 {
     *
     * */
 
-    public void printCode() {
+    public void demo_1() {
         // 输出整数，十进制
-        System.out.println(50);
+        System.out.println("十进制："+50);
 
         // 输出整数，二进制，数字开头0B
-        System.out.println(0B11);
+        System.out.println("二进制： "+0B11);
 
         // 输出整数，八进制
-        System.out.println(051);
+        System.out.println("八进制： "+051);
 
         // 输出整数，十六进制，数据开头0X，0-9 A-F
-        System.out.println(0XE);
+        System.out.println("十六进制： "+0XE);
 
         // 输出浮点数据
-        System.out.println(5.0);
+        System.out.println("浮点数据： "+5.0);
 
         // 输出布尔数据，只有两个值，true、false 关键字
-        System.out.println(true);
-        System.out.println(false);
+        System.out.println("布尔数据： "+true);
+        System.out.println("布尔数据： "+false);
 
         // 输出字符串常量，单引号包裹，可以写1个字符
-        System.out.println('a');
+        System.out.println("字符常量： "+'a');
 
         // 输出字符串常量，双引号包裹，可以写0-n个字符
-        System.out.println("HelloWorld");
+        System.out.println("字符串常量： "+"HelloWorld");
     }
 
     /*
