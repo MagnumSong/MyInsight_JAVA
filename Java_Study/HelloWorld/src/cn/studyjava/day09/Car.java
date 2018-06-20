@@ -7,7 +7,6 @@ public class Car {
     *
     * 属性：成员变量
     * 方法：成员方法
-    *
     * */
 
 
@@ -18,7 +17,12 @@ public class Car {
 
     // 定义跑的功能
     public void run(){
+        //
         System.out.println("小汽车在跑..."+color+"..."+count);
+        int x=1;
+
+        //
+        System.out.println(x);
     }
 
 }

@@ -16,11 +16,11 @@ public class Main {
 
         // 第一天Java的学习
         Day01 day01 = new Day01();
-        day01.day01_main(args);
+        //day01.day01_main(args);
 
         // 第二天Java的学习
         Day02 day02 = new Day02();
-        day02.day02_main(args);
+        //day02.day02_main(args);
 
         // 第三天Java的学习
         Day03 day03 = new Day03();
@@ -28,11 +28,11 @@ public class Main {
 
         // 第四天Java的学习
         Day04 day04 = new Day04();
-        day04.day04_main(args);
+        //day04.day04_main(args);
 
         // 第五天Java的学习
         Day05 day05 = new Day05();
-        day05.day05_main(args);
+        //day05.day05_main(args);
 
         // 第六天Java的学习
         Day06 day06 = new Day06();
@@ -57,6 +57,31 @@ public class Main {
         // 第11天Java的学习
         Day11 day11 = new Day11();
         day11.day11_main(args);
+
+        // 第12天Java的学习
+
+
+        // 第13天Java的学习
+
+
+        // 第14天Java的学习
+
+
+        // 第15天Java的学习
+
+
+        // 第16天Java的学习
+
+
+        // 第17天Java的学习
+
+
+        // 第18天Java的学习
+
+
+        // 第19天Java的学习
+
+
 
     }
 

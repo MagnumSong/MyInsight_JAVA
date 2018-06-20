@@ -10,8 +10,6 @@ public class Day09 {
         car.count = 4;
         car.run();
 
-
-
     }
 
 }
