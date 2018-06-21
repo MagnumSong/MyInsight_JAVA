@@ -46,7 +46,7 @@ public class Main {
 
         // 第三天Java的学习
         Day03 day03 = new Day03();
-        day03.day03_main(args);
+        //day03.day03_main(args);
 
         // 第四天Java的学习
         Day04 day04 = new Day04();
@@ -58,7 +58,7 @@ public class Main {
 
         // 第六天Java的学习
         Day06 day06 = new Day06();
-        day06.day06_main(args);
+        //day06.day06_main(args);
 
         // 第七天Java的学习
         Day07 day07 = new Day07();
@@ -66,7 +66,7 @@ public class Main {
 
         // 第八天Java的学习
         Day08 day08 = new Day08();
-        day08.day08_main(args);
+        //day08.day08_main(args);
 
         // 第九天Java的学习
         Day09 day09 = new Day09();
