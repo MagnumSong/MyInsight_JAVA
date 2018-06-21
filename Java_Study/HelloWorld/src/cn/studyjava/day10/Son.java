@@ -26,6 +26,7 @@ public class Son extends Father {
     public void show(){
         int i = 3;
         System.out.println("父类的i = "+super.i);
-        System.out.println("子类的方法show2");
+        System.out.println("子类的i ="+this.i);
+        System.out.println("方法内变量 i ="+i);
     }
 }
