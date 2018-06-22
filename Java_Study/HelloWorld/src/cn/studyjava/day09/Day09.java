@@ -17,8 +17,6 @@ public class Day09 {
         //person.setName("张三");
 
         person.speak();
-        //System.out.
-
     }
 
 }

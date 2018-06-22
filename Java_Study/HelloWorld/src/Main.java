@@ -70,11 +70,11 @@ public class Main {
 
         // 第九天Java的学习
         Day09 day09 = new Day09();
-        day09.day09_main(args);
+        //day09.day09_main(args);
 
         // 第十天Java的学习
         Day10 day10 = new Day10();
-        day10.day10_main(args);
+        //day10.day10_main(args);
 
         // 第11天Java的学习
         Day11 day11 = new Day11();
