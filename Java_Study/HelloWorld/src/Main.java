@@ -78,7 +78,7 @@ public class Main {
 
         // 第11天Java的学习
         Day11 day11 = new Day11();
-        day11.day11_main(args);
+        //day11.day11_main(args);
 
         // 第12天Java的学习
         Day12 day12 = new Day12();
