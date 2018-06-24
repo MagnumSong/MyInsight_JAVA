@@ -14,11 +14,13 @@ public class Day12 {
         System.out.println(person12.getName());
         System.out.println(person12.getAge());
 
-
         Person12 person121 = new Person12();
         person121.setName("汤姆");
         person121.setAge(12);
         System.out.println(person121.getName()+"...."+person121.getAge());
+
+        Person12 person122 = new Person12();
+        System.out.println(person122.getName()+"...."+person122.getAge());
 
         // 常见JavaEE对象，调用方法
         JavaEE12 javaEE12 = new JavaEE12("张三", "开发部003");

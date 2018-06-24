@@ -30,6 +30,9 @@ public class Person12 {
 
     // 写空参数的构造方法
     public Person12(){
+        // 调用有参数的构造方法
+        // 参数"张无忌",20 传递给name,age
+        this("张无忌",13);
         System.out.println("我是一个空参数构造方法");
     }
 
