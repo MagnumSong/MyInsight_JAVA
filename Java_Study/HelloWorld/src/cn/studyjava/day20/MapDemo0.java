@@ -8,7 +8,17 @@ package cn.studyjava.day20;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MapDemo_0 {
+public class MapDemo0 {
+
+    public void mapDemo0_main(String[] args){
+        // 函数0
+        function_0();
+        // 函数1
+        function_1();
+        // 函数2
+        function_2();
+    }
+
 
     /*
     * 将键值对存储到集合中
@@ -45,8 +55,21 @@ public class MapDemo_0 {
         System.out.println(value);
     }
 
+    /*
+    * 移除集合中的键值对，返回被移除之前的值
+    *
+    * */
     public static void function_2(){
+        Map<Integer, String> map = new HashMap<Integer, String>();
+        map.put(1, "a");
+        map.put(2, "b");
+        map.put(3, "c");
 
+        System.out.println(map);
+
+        String value = map.remove(33);
+        System.out.println(value);
+        System.out.println(map);
     }
 
 }

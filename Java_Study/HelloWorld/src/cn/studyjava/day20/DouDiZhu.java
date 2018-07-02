@@ -22,7 +22,7 @@ public class DouDiZhu {
         // 定义出13个点数的数组
         String[] numbers = {"2","A","K","Q","J","10","9","8","7","6","5","4","3"};
         // 定义四个花色
-        String[] colors = {"♠️","♥️","♣️","♦️"};
+        String[] colors = {"♠","♥","♣","♦"};
         // 定义整数变量，作为键出现
         int index = 2;
         // 遍历数组，花色+点数的组合，存储到Map组合
@@ -88,7 +88,7 @@ public class DouDiZhu {
 
     public static void look(String name, ArrayList<Integer> player, HashMap<Integer, String> pooker) {
         // 遍历ArrayList集合，获取元素，作为键，到集合Map中找值
-        System.out.print(name+"");
+        System.out.print(name+" ");
         for (Integer key: player) {
             String value = pooker.get(key);
             System.out.print(value+" ");
