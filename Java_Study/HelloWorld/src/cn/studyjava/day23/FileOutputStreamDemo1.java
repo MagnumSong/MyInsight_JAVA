@@ -1,6 +1,5 @@
 package cn.studyjava.day23;
 
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -13,15 +12,15 @@ import java.io.IOException;
 * */
 public class FileOutputStreamDemo1 {
 
-    public void fileOutputStreamDemo1_main(String[] args) throws FileNotFoundException {
+    public void fileOutputStreamDemo1_main(String[] args) throws IOException {
         File file = new File("/Users/songmenglong/Desktop/WTF/b.txt");
         FileOutputStream fileOutputStream = new FileOutputStream(file, true);
 
-
         try {
-            fileOutputStream.write("Hello".getBytes());
-
-            // 
+            //
+            fileOutputStream.write("Hello\r\n".getBytes());
+            fileOutputStream.write("World".getBytes());
+            //
             fileOutputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
