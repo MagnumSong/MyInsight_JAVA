@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2a3f1d-7900-4da0-b146-86599180b818" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_0.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/FileOutputStreamDemo3.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/InputStreamDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/ReaderDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/WriterDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day23/Day23.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/Day23.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day23/FileOutputStreamDemo1.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/FileOutputStreamDemo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileInputStreamDemo0.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java">
+      <file leaf-file-name="Copy_2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+            <state relative-caret-position="645">
+              <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,13 +95,13 @@
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/FileOutputStreamDemo1.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo1.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/InputStreamDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Day23.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/ReaderDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/WriterDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_0.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_1.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java" />
       </list>
     </option>
   </component>
@@ -312,12 +302,12 @@
       <workItem from="1529930362216" duration="1985000" />
       <workItem from="1530017104756" duration="2591000" />
       <workItem from="1530114582089" duration="10443000" />
-      <workItem from="1530596885347" duration="16301000" />
+      <workItem from="1530596885347" duration="17169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100553000" />
+    <option name="totallyTimeSpent" value="101421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="6" />
@@ -788,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Copy_0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -806,20 +788,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Copy_1.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="183">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Copy_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="38" column="4" lean-forward="false" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
+        <state relative-caret-position="105">
+          <caret line="24" column="87" lean-forward="false" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="23" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

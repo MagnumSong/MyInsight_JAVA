@@ -36,5 +36,5 @@ public class FileInputStreamDemo0 {
         fileInputStream.close();
 
     }
-    
+
 }
