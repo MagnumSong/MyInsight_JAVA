@@ -124,11 +124,11 @@ public class Main {
         day22.day22_main(args);
 
         Day23 day23 = new Day23();
-        try {
-            day23.day23_main(args);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            day23.day23_main(args);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
         Day24 day24 = new Day24();
         day24.day24_main(args);
