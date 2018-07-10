@@ -36,7 +36,7 @@ import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         // 第一天Java的学习
         Day01 day01 = new Day01();
@@ -124,11 +124,7 @@ public class Main {
         day22.day22_main(args);
 
         Day23 day23 = new Day23();
-//        try {
-//            day23.day23_main(args);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        //day23.day23_main(args);
 
         Day24 day24 = new Day24();
         //day24.day24_main(args);
