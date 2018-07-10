@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2a3f1d-7900-4da0-b146-86599180b818" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWrierDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedInputStreamDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedInputStreamDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedOutputStreamDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedOutputStreamDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedReaderDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedReaderDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_0.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_0.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_1.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_1.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/InputStreamReaderDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/InputStreamReaderDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day24/OutputStreamWriterDemo.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day24/OutputStreamWriterDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,30 +22,7 @@
     <favorites_list name="HelloWorld" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Day24.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BufferedReaderDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/BufferedReaderDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -67,8 +43,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day12/Worker12.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day12/Maintainer12.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day12/NetWorker12.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day12/Person12.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day12/Day12.java" />
@@ -109,15 +83,17 @@
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_1.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/FileInputStreamDemo0.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day23/Copy_2.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day24/OutputStreamWriterDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day24/InputStreamReaderDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWrierDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedInputStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedOutputStreamDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedReaderDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_0.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_1.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java" />
       </list>
     </option>
   </component>
@@ -148,10 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,80 +144,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="studyjava" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day15" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day16" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day19" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day20" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day21" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day22" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day23" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HelloWorld" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HelloWorld" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="studyjava" type="462c0819:PsiDirectoryNode" />
-              <item name="day24" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,16 +234,16 @@
       <workItem from="1530596885347" duration="18272000" />
       <workItem from="1530884869415" duration="166000" />
       <workItem from="1531024146680" duration="1461000" />
-      <workItem from="1531040008586" duration="3674000" />
+      <workItem from="1531040008586" duration="3676000" />
+      <workItem from="1531185143207" duration="3587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107825000" />
+    <option name="totallyTimeSpent" value="111414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -351,7 +257,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29159936" sideWeight="0.4784946" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29159936" sideWeight="0.4784946" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.48924732" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -693,16 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Day23.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="41" column="33" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/FileOutputStreamDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -773,30 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="130" column="11" lean-forward="true" selection-start-line="130" selection-start-column="11" selection-end-line="130" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/InputStreamReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -804,14 +676,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,21 +707,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/BufferedReaderDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/BufferedWriterDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/BufferedReaderDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Day24.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="125" column="12" lean-forward="true" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day23/Day23.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day24/Copy24_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

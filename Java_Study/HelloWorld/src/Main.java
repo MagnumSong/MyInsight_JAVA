@@ -131,7 +131,7 @@ public class Main {
 //        }
 
         Day24 day24 = new Day24();
-        day24.day24_main(args);
+        //day24.day24_main(args);
 
         Day25 day25 = new Day25();
         day25.day25_main(args);

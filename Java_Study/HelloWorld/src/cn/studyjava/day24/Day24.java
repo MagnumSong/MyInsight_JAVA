@@ -5,7 +5,7 @@ import java.io.IOException;
 public class Day24 {
 
     // 定义主方法
-    public void day24_main(String[] args){
+    public void day24_main(String[] args) {
         // 转换流
 
         InputStreamReaderDemo inputStreamReaderDemo = new InputStreamReaderDemo();
@@ -22,8 +22,5 @@ public class Day24 {
             e.printStackTrace();
         }
 
-
     }
-
-
 }

@@ -5,8 +5,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 /*
-*
-*
+* 字节输入流缓冲流
+* java.io.FileReader 继承Reader
+* 读取功能 read() 单个字符，字符数组
 * */
 
 public class BufferedReaderDemo {
