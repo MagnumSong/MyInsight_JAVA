@@ -133,7 +133,7 @@ public class Main {
         day25.day25_main(args);
 
         Day26 day26 = new Day26();
-        day26.day26_main(args);
+        //day26.day26_main(args);
 
         Day27 day27 = new Day27();
         day27.day27_main(args);
