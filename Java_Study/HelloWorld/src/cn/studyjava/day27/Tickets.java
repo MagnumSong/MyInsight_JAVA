@@ -1,6 +1,7 @@
 package cn.studyjava.day27;
 
 /*
+* Demo0
 * 通过线程休眠，出现安全问题
 * 解决安全问题，Java技术，提供技术，同步技术
 * 公式：
@@ -32,3 +33,6 @@ public class Tickets implements Runnable {
         }
     }
 }
+
+
+
