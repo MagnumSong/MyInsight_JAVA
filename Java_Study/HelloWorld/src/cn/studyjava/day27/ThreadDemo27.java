@@ -46,7 +46,26 @@ public class ThreadDemo27 {
         thread2_1.start();
         thread2_2.start();
 
+        // Demo3
+        DeadLock27 deadLock27 = new DeadLock27();
+        Thread thread3_0 = new Thread(deadLock27);
+        Thread thread3_1 = new Thread(deadLock27);
 
+        thread3_0.start();
+        thread3_1.start();
+
+        // Demo4
+        // 开启输入线程和输出线程，实现赋值和打印值
+        Resource27 resource27 = new Resource27();
+
+        Input27 input27 = new Input27(resource27);
+        Output27 output27 = new Output27(resource27);
+
+        Thread threadIn = new Thread(input27);
+        Thread threadOut = new Thread(output27);
+
+        threadIn.start();
+        threadOut.start();
     }
 
 }

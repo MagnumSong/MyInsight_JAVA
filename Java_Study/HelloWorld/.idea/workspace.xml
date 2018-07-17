@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db2a3f1d-7900-4da0-b146-86599180b818" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets_1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets_2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/DeadLock27.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/Input27.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/LockA27.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/LockB27.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/Output27.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/Resource27.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day27/ThreadDemo27.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/ThreadDemo27.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets.java" afterPath="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,8 +57,8 @@
       <file leaf-file-name="ThreadDemo27.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/ThreadDemo27.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -82,12 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day19/Day19.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day20/DouDiZhu.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day20/MapDemo_0.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day20/Day20.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day20/MapDemo1.java" />
-        <option value="$PROJECT_DIR$/src/cn/studyjava/day20/MapDemo0.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day20/MapDemo2.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day21/Day21.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day22/Day22.java" />
@@ -132,6 +129,12 @@
         <option value="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets_1.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day27/Tickets_2.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day27/LockA27.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day27/LockB27.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day27/DeadLock27.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day27/Resource27.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day27/Output27.java" />
+        <option value="$PROJECT_DIR$/src/cn/studyjava/day27/Input27.java" />
         <option value="$PROJECT_DIR$/src/cn/studyjava/day27/ThreadDemo27.java" />
       </list>
     </option>
@@ -285,12 +288,12 @@
       <workItem from="1531314759595" duration="9458000" />
       <workItem from="1531361040849" duration="3259000" />
       <workItem from="1531723650026" duration="446000" />
-      <workItem from="1531836466692" duration="2682000" />
+      <workItem from="1531836466692" duration="5207000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132335000" />
+    <option name="totallyTimeSpent" value="134860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -391,48 +394,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day15/Day15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day18/Day18.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" column="12" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day19/Day19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day20/DouDiZhu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day20/MapDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day20/MapDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day22/Day22.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -662,10 +623,10 @@
         <state relative-caret-position="110">
           <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
-            <element signature="e#1206#1318#0" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1206#1318#0" expanded="false" />
+            <element signature="e#1317#1318#0" expanded="false" />
+            <element signature="e#1421#1422#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -697,8 +658,8 @@
         <state relative-caret-position="180">
           <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
           <folding>
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="false" />
+            <element signature="e#206#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -724,7 +685,7 @@
         <state relative-caret-position="120">
           <caret line="8" column="50" lean-forward="false" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -763,10 +724,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/LockB27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/DeadLock27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/LockA27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/Resource27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/Output27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/Input27.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="43" lean-forward="false" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/studyjava/day27/ThreadDemo27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="204">
+          <caret line="67" column="26" lean-forward="true" selection-start-line="67" selection-start-column="26" selection-end-line="67" selection-end-column="26" />
           <folding />
         </state>
       </provider>
