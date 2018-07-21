@@ -8,16 +8,20 @@ public class Day22 {
     // 定义主方法
     public void day22_main(String[] args) throws IOException {
         // 文件
-
+        // Demo_0
         fileDemo0_0();
-
         fileDemo0_1();
-
         fileDemo0_2();
-
         fileDemo0_3();
-
         fileDemo0_4();
+
+        // Demo_1
+        fileDemo1_0();
+        fileDemo1_1();
+
+        // Demo_2
+        fileDemo2_0();
+        fileDemo2_1();
     }
 
     /*
@@ -233,9 +237,85 @@ public class Day22 {
     }
 
     // 文件学习1
-    
+    /*
+    * File类获取功能
+    * list
+    * listFiles
+    * */
+    public void fileDemo1_0() {
+        function1_0_0();
+        function1_0_1();
+        function1_0_2();
+    }
 
+    /*
+    * File类获取功能
+    * String[] list()
+    * 获取到，File构造方法中封装的路径中的文件和文件夹名(遍历一个目录)
+    * 返回只有名字
+    * */
+    public static void function1_0_0() {
+        File file = new File("");
+        String[] strArr = file.list();
+        System.out.println(strArr.length);
+        for (String string :
+                strArr) {
+            System.out.println(string);
+        }
+    }
 
+    /*
+    * File类的获取功能
+    * File[] listFiles()
+    * 获取到，File构造方法中封装的路径中的文件和文件夹名(遍历一个目录)
+    * 返回目录或者文件的全路径
+    * */
+    public static void function1_0_1() {
+        File file = new File("");
+        File[] fileArr = file.listFiles();
+        for (File f :
+                fileArr) {
+            System.out.println(f);
+        }
+    }
+
+    /*
+    * 获取系统的所有根目录
+    * */
+    public static void function1_0_2() {
+        File[] fileArr = File.listRoots();
+        for (File f :
+                fileArr) {
+            System.out.println(f);
+        }
+    }
+
+    /*
+    * File类的获取，文件获取过滤器
+    * 遍历目录的时候，可以根据需要，只获取满足条件的文件
+    * 遍历目录的时候，listFiles()重载形式
+    * listFiles(FileFilter filter) 接口类型
+    * 传递FileFilter接口的实现类
+    * 自定义FileFilter接口实现类，重写抽象方法
+    * 接口实现类对象传递到遍历方法listFiles
+    * */
+    public void fileDemo1_1() {
+        File file = new File("");
+        File[] fileArr = file.listFiles(new MyFilter22_1());
+        for (File f :
+                fileArr) {
+            System.out.println(f);
+        }
+    }
+
+    // 文件学习2
+    public void fileDemo2_0() {
+
+    }
+
+    public void fileDemo2_1() {
+
+    }
 
 
 }

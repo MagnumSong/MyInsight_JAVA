@@ -36,7 +36,7 @@ import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException, Exception {
+    public static void main(String[] args) throws Exception {
 
         // 第一天Java的学习
         Day01 day01 = new Day01();
