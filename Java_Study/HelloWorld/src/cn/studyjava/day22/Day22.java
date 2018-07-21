@@ -22,6 +22,9 @@ public class Day22 {
         // Demo_2
         fileDemo2_0();
         fileDemo2_1();
+        // 测试递归
+        DiGuiDemo22 diGuiDemo22 = new DiGuiDemo22();
+        diGuiDemo22.diGuiDemo22_main(args);
     }
 
     /*
@@ -309,13 +312,62 @@ public class Day22 {
     }
 
     // 文件学习2
+    /*
+    * 对一个目录的下面所有内容，进行完全的遍历
+    * 编程技巧，方法的递归调用，自己调用自己
+    * */
     public void fileDemo2_0() {
-
+        File file = new File("");
+        getAllDir(file);
     }
 
+    /*
+    * 定义方法
+    * 实现目录的完全遍历
+    * */
+    public static void getAllDir(File dir) {
+        System.out.println(dir);
+        // 调用方法listFiles()对目录，dir进行遍历
+        File[] fileArr = dir.listFiles();
+        for (File f :
+                fileArr) {
+            // 判断变量f表示的路径是不是文件夹
+            if (f.isDirectory()) {
+                // 是一个目录，就要去遍历这个目录
+                // 本方法，getAllDir，就是给个目录去遍历
+                // 继续调用getAllDir，传递他的目录
+                getAllDir(f);
+            } else {
+                System.out.println(f);
+            }
+        }
+    }
+
+    /*
+    * 遍历目录，获取目录下的所有.java文件
+    * 遍历多级目录，方法实现递归
+    * 遍历的过程中，使用过滤器
+    * */
     public void fileDemo2_1() {
 
+        getAllJava(new File(""));
+        new File("").delete(); // 删除文件
     }
 
+    public static void getAllJava(File dir) {
+        // 调用File对象方向listFiles()获取，加入过滤器
+        File[] fileArr = dir.listFiles(new MyJavaFilter22_2());
+        for (File f :
+                fileArr) {
+            // 对f路径，判断是不是文件夹
+            if (f.isDirectory()) {
+                // 递归进入文件夹遍历
+                getAllJava(f);
+            } else {
+                System.out.println(f);
+            }
+        }
+
+    }
 
 }
