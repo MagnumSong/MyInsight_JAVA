@@ -114,48 +114,61 @@ public class Main {
         Day19 day19 = new Day19();
         day19.day19_main(args);
 
+        // 第20天Java的学习
         Day20 day20 = new Day20();
         day20.day20_main(args);
 
+        // 第21天Java的学习
         Day21 day21 = new Day21();
         day21.day21_main(args);
 
+        // 第22天Java的学习
         Day22 day22 = new Day22();
-        day22.day22_main(args);
+        //day22.day22_main(args);
 
+        // 第23天Java的学习
         Day23 day23 = new Day23();
         //day23.day23_main(args);
 
+        // 第24天Java的学习
         Day24 day24 = new Day24();
         //day24.day24_main(args);
 
+        // 第25天Java的学习
         Day25 day25 = new Day25();
         day25.day25_main(args);
 
+        // 第26天Java的学习
         Day26 day26 = new Day26();
         //day26.day26_main(args);
 
+        // 第27天Java的学习
         Day27 day27 = new Day27();
         //day27.day27_main(args);
 
+        // 第28天Java的学习
         Day28 day28 = new Day28();
         day28.day28_main(args);
 
+        // 第29天Java的学习
         Day29 day29 = new Day29();
         day29.day29_main(args);
 
+        // 第30天Java的学习
         Day30 day30 = new Day30();
         day30.day30_main(args);
 
+        // 第31天Java的学习
         Day31 day31 = new Day31();
         day31.day31_main(args);
 
+        // 第32天Java的学习
         Day32 day32 = new Day32();
         day32.day32_main(args);
 
+        // 第33天Java的学习
         Day33 day33 = new Day33();
         day33.day33_main(args);
-
     }
 
 }
