@@ -1,103 +1,167 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
-  <head>
+<head>
     <title>左右选中.html</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<script type="text/javascript">
-		
-	</script>
-	<style>
-		input[type='button']{
-			width:50px;
-		}
-	</style>
-	</head>
-	 <script>
-	 		onload=function(){
-		 			//给单移按钮派发事件
-		 			document.getElementById("toRight1").onclick=function(){
-		 					//获取左边所有的option
-		 					var arr=document.getElementById("left").options;
-		 					//alert(arr);
-		 					//alert(arr.length);
-		 					
-		 					//遍历数组 判断是否选中
-		 					for(var i=0;i<arr.length;i++){
-		 							//判断是否选中 若选中 则追加(移动)到右边的select中
-		 							if(arr[i].selected){
-		 								document.getElementById("right").appendChild(arr[i]);
-		 								break;
-		 							}
-		 					}
-		 			}
-		 			
-		 			//给多移动按钮派发事件
-		 			document.getElementById("toRight2").onclick=function(){
-		 					//获取左边所有的option
-		 					var arr=document.getElementById("left").options;
-		 					//alert(arr);
-		 					//alert(arr.length);
-		 					
-		 					//遍历数组 判断是否选中 
-		 					for(var i=0;i<arr.length;i++){
-		 							//判断是否选中 若选中 则追加(移动)到右边的select中
-		 							if(arr[i].selected){
-		 								document.getElementById("right").appendChild(arr[i]);
-		 								//注意:长度变化
-		 								i--;
-		 							}
-		 					}
-		 			}
-		 			
-		 			
-		 				//给全部移动按钮派发事件
-		 			document.getElementById("toRight3").onclick=function(){
-		 					//获取左边所有的option
-		 					var arr=document.getElementById("left").options;
-		 				
-		 					
-		 					//遍历数组 判断是否选中 
-		 					for(var i=0;i<arr.length;){
-		 							//相当于永远把第一个选项移动过去
-		 								document.getElementById("right").appendChild(arr[i]);
-		 								//注意:长度变化
-		 								
-		 					}
-		 			}
-		 			
-	 		}
-	 </script>
-	<body>
-		<table>
-			<tr>
-				<td>
-					<select id="left" multiple="true" style="width:100px" size="10">
-						<option>環</option>
-						<option>芈</option>
-						<option>琅</option>
-						<option>琊</option>
-						<option>爨</option>
-						<option>甄</option>
-						<option>槑</option>
-						<option>夔</option>
-					</select>
-				</td>
-				<td>
-					<input type="button" value=">" id="toRight1"><br>
-					<input type="button" value=">>" id="toRight2"><br>
-					<input type="button" value=">>>" id="toRight3"><br><br>
-					<input type="button" value="<" id="toLeft1"><br>
-					<input type="button" value="<<" id="toLeft2"><br>
-					<input type="button" value="<<<" id="toLeft3">
-				</td>
-				<td>
-					<select id="right" multiple="true" style="width:100px" size="10">
-						
-					</select>
-				</td>
-			</tr>
-		</table>
-	</body>
+    <script type="text/javascript">
+
+    </script>
+    <style>
+        input[type='button'] {
+            width: 50px;
+        }
+    </style>
+</head>
+<script>
+    onload = function () {
+        //给单移按钮派发事件
+        document.getElementById("toRight1").onclick = function () {
+            //获取左边所有的option
+            var arr = document.getElementById("left").options;
+            //alert(arr);
+            //alert(arr.length);
+
+            //遍历数组 判断是否选中
+            for (var i = 0; i < arr.length; i++) {
+                //判断是否选中 若选中 则追加(移动)到右边的select中
+                if (arr[i].selected) {
+                    document.getElementById("right").appendChild(arr[i]);
+                    break;
+                }
+            }
+        }
+
+        //给多移动按钮派发事件
+        document.getElementById("toRight2").onclick = function () {
+            //获取左边所有的option
+            var arr = document.getElementById("left").options;
+            //alert(arr);
+            //alert(arr.length);
+
+            //遍历数组 判断是否选中
+            for (var i = 0; i < arr.length; i++) {
+                //判断是否选中 若选中 则追加(移动)到右边的select中
+                if (arr[i].selected) {
+                    document.getElementById("right").appendChild(arr[i]);
+                    //注意:长度变化
+                    i--;
+                }
+            }
+        }
+
+        //给全部移动按钮派发事件
+        document.getElementById("toRight3").onclick = function () {
+            //获取左边所有的option
+            var arr = document.getElementById("left").options;
+
+
+            //遍历数组 判断是否选中
+            for (var i = 0; i < arr.length;) {
+                //相当于永远把第一个选项移动过去
+                document.getElementById("right").appendChild(arr[i]);
+                //注意:长度变化
+
+            }
+        }
+
+        document.getElementById("toLeft1").onclick = function () {
+            //获取左边所有的option
+            var arr = document.getElementById("right").options;
+
+            if (arr.length <= 0) {
+                alert("没有选中的元素");
+            }
+
+            //遍历数组 判断是否选中
+            for (var i = 0; i < arr.length; i++) {
+                //判断是否选中 若选中 则追加(移动)到右边的select中
+                if (arr[i].selected) {
+                    document.getElementById("left").appendChild(arr[i]);
+                    break;
+                }
+            }
+        }
+
+        document.getElementById("toLeft2").onclick = function () {
+            //获取左边所有的option
+            var arr = document.getElementById("right").options;
+
+            if (arr.length <= 0) {
+                alert("没有选中的元素");
+            }
+
+            //遍历数组 判断是否选中
+            for (var i = 0; i < arr.length; i++) {
+                //判断是否选中 若选中 则追加(移动)到右边的select中
+                if (arr[i].selected) {
+                    document.getElementById("left").appendChild(arr[i]);
+                    //注意:长度变化
+                    i--;
+                }
+            }
+
+        }
+
+        document.getElementById("toLeft3").onclick = function () {
+            //获取左边所有的option
+            var arr = document.getElementById("right").options;
+
+            if (arr.length <= 0) {
+                alert("没有选中的元素");
+            }
+
+            //遍历数组 判断是否选中
+            for (var i = 0; i < arr.length;) {
+                //相当于永远把第一个选项移动过去
+                document.getElementById("left").appendChild(arr[i]);
+                //注意:长度变化
+
+            }
+
+        }
+
+
+    }
+</script>
+<body>
+<table>
+    <tr>
+        <td>
+            <select id="left" multiple="true" style="width:100px" size="20">
+                <option>環</option>
+                <option>芈</option>
+                <option>琅</option>
+                <option>琊</option>
+                <option>爨</option>
+                <option>甄</option>
+                <option>槑</option>
+                <option>夔</option>
+                <option>床</option>
+                <option>钱</option>
+                <option>名</option>
+                <option>月</option>
+                <option>光</option>
+                <option>一</option>
+                <option>是</option>
+                <option>低</option>
+            </select>
+        </td>
+        <td>
+            <input type="button" value=">" id="toRight1"><br>
+            <input type="button" value=">>" id="toRight2"><br>
+            <input type="button" value=">>>" id="toRight3"><br><br>
+            <input type="button" value="<" id="toLeft1"><br>
+            <input type="button" value="<<" id="toLeft2"><br>
+            <input type="button" value="<<<" id="toLeft3">
+        </td>
+        <td>
+            <select id="right" multiple="true" style="width:100px" size="20">
+
+            </select>
+        </td>
+    </tr>
+</table>
+</body>
 
 </html>
 
